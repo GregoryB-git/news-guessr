@@ -1,0 +1,14 @@
+{
+  "name": "newsguessr",
+  "version": "1.0.0",
+  "description": "Word-by-word news headline guessing game powered by semantic NLP, React, Node.js and MongoDB",
+  "scripts": {
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && node seed.js",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["wordle", "game", "news", "mongodb", "react", "nodejs"],
+  "author": "",
+  "license": "MIT"
+}
